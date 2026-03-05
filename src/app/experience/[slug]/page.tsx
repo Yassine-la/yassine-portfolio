@@ -22,18 +22,23 @@ export default async function ExperienceDetailPage({
       <header className="space-y-2">
         <h1 className="h1">{e.title}</h1>
         <p className="muted">
-          {e.company} • {e.location} • {e.period}
+          {[e.company, e.location, e.period].filter(Boolean).join(" • ")}
         </p>
-        <p className="muted">{e.excerpt}</p>
+        {e.excerpt ? <p className="muted">{e.excerpt}</p> : null}
       </header>
 
       <section className="space-y-2">
         <h2 className="h2">Missions</h2>
-        <ul className="list-disc space-y-1 pl-5 muted">
-          {e.missions.map((m) => (
-            <li key={m}>{m}</li>
-          ))}
-        </ul>
+
+        {e.missions?.length ? (
+          <ul className="list-disc space-y-1 pl-5 muted">
+            {e.missions.map((m) => (
+              <li key={m}>{m}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="muted">Aucune mission renseignée.</p>
+        )}
       </section>
     </article>
   );
