@@ -10,14 +10,16 @@ export type Experience = {
   // affichage
   period: string; // ex: "08-2022 → 08-2025"
   start?: string; // ISO-ish optionnel, utile si tu veux trier ensuite
-  end?: string;   // ISO-ish optionnel
+  end?: string; // ISO-ish optionnel
 
   excerpt: string;
   tags?: string[];
 
   // contenu détaillé (page /experience ou section timeline)
   contexte?: string;
-  missions?: string[];
+
+  // ✅ on les rend sûrs pour éviter les "possibly undefined"
+  missions: string[];
   realisations?: string[];
   resultats?: string[];
   pointsCles?: string[];
@@ -99,7 +101,16 @@ export const experiences: Experience[] = [
     end: "2025-08",
     excerpt:
       "Interventions terrain (correctif/préventif), diagnostic & AMDEC, fiabilisation magasin pièces, digitalisation de la donnée et création d’indicateurs MTBF/MTTR/Disponibilité.",
-    tags: ["Méthodes", "Fiabilité", "AMDEC", "MTBF", "MTTR", "Disponibilité", "Magasin", "Digitalisation"],
+    tags: [
+      "Méthodes",
+      "Fiabilité",
+      "AMDEC",
+      "MTBF",
+      "MTTR",
+      "Disponibilité",
+      "Magasin",
+      "Digitalisation",
+    ],
     contexte:
       "Environnement intralogistique multi-constructeurs (trieurs, convoyeurs, cercleuses) avec enjeux forts de disponibilité et de standardisation.",
     missions: [
@@ -167,6 +178,11 @@ export const experiences: Experience[] = [
       "Communication avec les services et suivi administratif.",
       "Management d’une équipe de 3 personnes.",
     ],
-    pointsCles: ["Organisation", "Fiabilité documentaire", "Management", "Communication"],
+    pointsCles: [
+      "Organisation",
+      "Fiabilité documentaire",
+      "Management",
+      "Communication",
+    ],
   },
 ];
