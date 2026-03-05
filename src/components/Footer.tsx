@@ -18,7 +18,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            href="https://github.com/Layass"
+            href="https://github.com/Yassine-la"
             target="_blank"
             className="hover:text-white transition"
           >
