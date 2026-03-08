@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yassine Larbi — Portfolio
 
-## Getting Started
+Portfolio professionnel présentant mes projets en **maintenance industrielle, fiabilité des équipements et digitalisation de la maintenance**.
 
-First, run the development server:
+Site en ligne :
+https://yassinelarbi.fr
 
-```bash
+---
+
+# Présentation
+
+Ce site a pour objectif de présenter :
+
+* mon parcours professionnel
+* mes projets techniques
+* mes compétences en maintenance industrielle
+* mes travaux liés à l'exploitation des données maintenance
+
+Le portfolio sert également de support pour les **recruteurs et les collaborations techniques**.
+
+---
+
+# Domaines d'expertise
+
+* Fiabilité industrielle
+* Méthodes maintenance
+* Analyse des données maintenance
+* Optimisation des performances industrielles
+* Digitalisation de la maintenance
+
+---
+
+# Technologies utilisées
+
+Le site est développé avec :
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+Déploiement :
+
+* Vercel
+
+---
+
+# Fonctionnalités du site
+
+* Présentation du profil professionnel
+* Expériences professionnelles détaillées
+* Projets techniques
+* CV téléchargeable
+* Optimisation SEO (sitemap + Google Search Console)
+* Design responsive
+
+---
+
+# Structure du projet
+
+src/
+components/
+data/
+app/
+
+public/
+
+---
+
+# Installation en local
+
+Cloner le projet :
+
+git clone https://github.com/yassinelarbi/yassine-portfolio.git
+
+Installer les dépendances :
+
+npm install
+
+Lancer le projet :
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site sera disponible sur :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Déploiement
 
-To learn more about Next.js, take a look at the following resources:
+Le site est déployé automatiquement via **Vercel**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Chaque mise à jour du dépôt GitHub déclenche un nouveau déploiement.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# Auteur
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Yassine Larbi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Spécialisation :
+
+* fiabilité industrielle
+* méthodes maintenance
+* exploitation des données de maintenance
+* amélioration continue
+
+---
+
+# Contact
+
+Portfolio :
+https://yassinelarbi.fr
