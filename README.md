@@ -16,7 +16,7 @@ Ce site a pour objectif de présenter :
 * mes compétences en maintenance industrielle
 * mes travaux liés à l'exploitation des données maintenance
 
-Le portfolio sert également de support pour les **recruteurs et les collaborations techniques**.
+
 
 ---
 
