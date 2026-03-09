@@ -94,6 +94,26 @@ export default function RootLayout({
             gtag('config', 'G-86ZMVHQ31L');
           `}
         </Script>
+        <Script id="schema-person" type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Yassine Larbi",
+            url: "https://yassinelarbi.fr",
+            image: "https://yassinelarbi.fr/opengraph-image",
+            jobTitle: "Technicien Méthodes Maintenance",
+            description:
+              "Spécialisé en méthodes maintenance, fiabilité industrielle et digitalisation des données de maintenance.",
+            sameAs: [
+              "https://www.linkedin.com/in/yassine-larbi/",
+              "https://github.com/yassinelarbi",
+            ],
+            worksFor: {
+              "@type": "Organization",
+              name: "Maintenance industrielle",
+            },
+          })}
+        </Script>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ScrollProgress />
